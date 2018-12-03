@@ -1,0 +1,283 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 1000000
+Simulation Instructions: 4000000
+Number of CPUs: 4
+LLC sets: 8192
+LLC ways: 16
+Off-chip DRAM Size: 8192 MB Channels: 2 Width: 64-bit Data Rate: 1600 MT/s
+
+CPU 0 runs /home/siddhartha/ChampSim/sim_list/hmmer_397B.trace.gz
+home 0
+siddhartha 1
+ChampSim 2
+sim_list 3
+hmmer_397B 4
+trace 5
+gz 6
+application: hmmer_397B
+CPU 1 runs /home/siddhartha/ChampSim/sim_list/hmmer_397B.trace.gz
+home 0
+siddhartha 1
+ChampSim 2
+sim_list 3
+hmmer_397B 4
+trace 5
+gz 6
+application: hmmer_397B
+CPU 2 runs /home/siddhartha/ChampSim/sim_list/hmmer_397B.trace.gz
+home 0
+siddhartha 1
+ChampSim 2
+sim_list 3
+hmmer_397B 4
+trace 5
+gz 6
+application: hmmer_397B
+CPU 3 runs /home/siddhartha/ChampSim/sim_list/hmmer_397B.trace.gz
+home 0
+siddhartha 1
+ChampSim 2
+sim_list 3
+hmmer_397B 4
+trace 5
+gz 6
+application: hmmer_397B
+CPU 0 Bimodal branch predictor
+CPU 1 Bimodal branch predictor
+CPU 2 Bimodal branch predictor
+CPU 3 Bimodal branch predictor
+
+Warmup complete CPU 0 instructions: 1000192 cycles: 633722 (Simulation time: 0 hr 0 min 22 sec) 
+Warmup complete CPU 1 instructions: 1000162 cycles: 633722 (Simulation time: 0 hr 0 min 22 sec) 
+Warmup complete CPU 2 instructions: 1000040 cycles: 633722 (Simulation time: 0 hr 0 min 22 sec) 
+Warmup complete CPU 3 instructions: 1000002 cycles: 633722 (Simulation time: 0 hr 0 min 22 sec) 
+
+Finished CPU 1 instructions: 4000000 cycles: 4479143 cumulative IPC: 0.893028 (Simulation time: 0 hr 2 min 9 sec) 
+Finished CPU 2 instructions: 4000002 cycles: 4489597 cumulative IPC: 0.890949 (Simulation time: 0 hr 2 min 10 sec) 
+Finished CPU 0 instructions: 4000000 cycles: 4492808 cumulative IPC: 0.890312 (Simulation time: 0 hr 2 min 10 sec) 
+Finished CPU 3 instructions: 4000001 cycles: 4497428 cumulative IPC: 0.889397 (Simulation time: 0 hr 2 min 10 sec) 
+
+CPU 0 Branch Prediction Accuracy: 99.4186% MPKI: 0.215782
+
+CPU 1 Branch Prediction Accuracy: 99.4201% MPKI: 0.215156
+
+CPU 2 Branch Prediction Accuracy: 99.4189% MPKI: 0.215646
+
+CPU 3 Branch Prediction Accuracy: 99.4193% MPKI: 0.2155
+
+ChampSim completed all CPUs
+
+Total Simulation Statistics (not including warmup)
+
+CPU 0 cumulative IPC: 0.890251 instructions: 4003841 cycles: 4497428
+L1D TOTAL     ACCESS:    1462718  HIT:    1055942  MISS:     406776
+L1D LOAD      ACCESS:    1172635  HIT:     939581  MISS:     233054
+L1D RFO       ACCESS:     290083  HIT:     116361  MISS:     173722
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    1111420  HIT:    1111420  MISS:          0
+L1I LOAD      ACCESS:    1111420  HIT:    1111420  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:     540135  HIT:     514276  MISS:      25859
+L2C LOAD      ACCESS:     231995  HIT:     220084  MISS:      11911
+L2C RFO       ACCESS:     131987  HIT:     118870  MISS:      13117
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:     176153  HIT:     175322  MISS:        831
+LLC TOTAL     ACCESS:      37985  HIT:      25460  MISS:      12525
+LLC LOAD      ACCESS:      11867  HIT:      11648  MISS:        219
+LLC RFO       ACCESS:      12835  HIT:        529  MISS:      12306
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      13283  HIT:      13283  MISS:          0
+
+CPU 1 cumulative IPC: 0.892848 instructions: 4015521 cycles: 4497428
+L1D TOTAL     ACCESS:    1467911  HIT:    1059335  MISS:     408576
+L1D LOAD      ACCESS:    1176015  HIT:     942215  MISS:     233800
+L1D RFO       ACCESS:     291896  HIT:     117120  MISS:     174776
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    1114047  HIT:    1114047  MISS:          0
+L1I LOAD      ACCESS:    1114047  HIT:    1114047  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:     542762  HIT:     517679  MISS:      25083
+L2C LOAD      ACCESS:     232719  HIT:     221325  MISS:      11394
+L2C RFO       ACCESS:     132771  HIT:     119695  MISS:      13076
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:     177272  HIT:     176659  MISS:        613
+LLC TOTAL     ACCESS:      37283  HIT:      24718  MISS:      12565
+LLC LOAD      ACCESS:      11348  HIT:      11129  MISS:        219
+LLC RFO       ACCESS:      12829  HIT:        483  MISS:      12346
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      13106  HIT:      13106  MISS:          0
+
+CPU 2 cumulative IPC: 0.89085 instructions: 4006533 cycles: 4497428
+L1D TOTAL     ACCESS:    1463811  HIT:    1057045  MISS:     406766
+L1D LOAD      ACCESS:    1173615  HIT:     940433  MISS:     233182
+L1D RFO       ACCESS:     290196  HIT:     116612  MISS:     173584
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    1111227  HIT:    1111227  MISS:          0
+L1I LOAD      ACCESS:    1111227  HIT:    1111227  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:     540188  HIT:     514266  MISS:      25922
+L2C LOAD      ACCESS:     232106  HIT:     220154  MISS:      11952
+L2C RFO       ACCESS:     131966  HIT:     118700  MISS:      13266
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:     176116  HIT:     175412  MISS:        704
+LLC TOTAL     ACCESS:      38386  HIT:      25851  MISS:      12535
+LLC LOAD      ACCESS:      11916  HIT:      11697  MISS:        219
+LLC RFO       ACCESS:      13000  HIT:        684  MISS:      12316
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      13470  HIT:      13470  MISS:          0
+
+CPU 3 cumulative IPC: 0.889397 instructions: 4000001 cycles: 4497428
+L1D TOTAL     ACCESS:    1462480  HIT:    1055433  MISS:     407047
+L1D LOAD      ACCESS:    1171695  HIT:     938866  MISS:     232829
+L1D RFO       ACCESS:     290785  HIT:     116567  MISS:     174218
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    1110345  HIT:    1110345  MISS:          0
+L1I LOAD      ACCESS:    1110345  HIT:    1110345  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:     541193  HIT:     514783  MISS:      26410
+L2C LOAD      ACCESS:     231775  HIT:     219209  MISS:      12566
+L2C RFO       ACCESS:     132534  HIT:     119448  MISS:      13086
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:     176884  HIT:     176126  MISS:        758
+LLC TOTAL     ACCESS:      38440  HIT:      25923  MISS:      12517
+LLC LOAD      ACCESS:      12543  HIT:      12324  MISS:        219
+LLC RFO       ACCESS:      12929  HIT:        631  MISS:      12298
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      12968  HIT:      12968  MISS:          0
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.890312 instructions: 4000000 cycles: 4492808
+L1D TOTAL     ACCESS:    1461414  HIT:    1055111  MISS:     406303
+L1D LOAD      ACCESS:    1171608  HIT:     938864  MISS:     232744
+L1D RFO       ACCESS:     289806  HIT:     116247  MISS:     173559
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I TOTAL     ACCESS:    1110366  HIT:    1110366  MISS:          0
+L1I LOAD      ACCESS:    1110366  HIT:    1110366  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:     539527  HIT:     513687  MISS:      25840
+L2C LOAD      ACCESS:     231685  HIT:     219784  MISS:      11901
+L2C RFO       ACCESS:     131860  HIT:     118752  MISS:      13108
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:     175982  HIT:     175151  MISS:        831
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC TOTAL     ACCESS:      37953  HIT:      25437  MISS:      12516
+LLC LOAD      ACCESS:      11857  HIT:      11638  MISS:        219
+LLC RFO       ACCESS:      12826  HIT:        529  MISS:      12297
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      13270  HIT:      13270  MISS:          0
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+Major fault: 0 Minor fault: 274
+
+CPU 1 cumulative IPC: 0.893028 instructions: 4000000 cycles: 4479143
+L1D TOTAL     ACCESS:    1462330  HIT:    1055408  MISS:     406922
+L1D LOAD      ACCESS:    1171553  HIT:     938707  MISS:     232846
+L1D RFO       ACCESS:     290777  HIT:     116701  MISS:     174076
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I TOTAL     ACCESS:    1109913  HIT:    1109913  MISS:          0
+L1I LOAD      ACCESS:    1109913  HIT:    1109913  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:     540565  HIT:     515572  MISS:      24993
+L2C LOAD      ACCESS:     231767  HIT:     220414  MISS:      11353
+L2C RFO       ACCESS:     132226  HIT:     119198  MISS:      13028
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:     176572  HIT:     175960  MISS:        612
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC TOTAL     ACCESS:      37141  HIT:      24624  MISS:      12517
+LLC LOAD      ACCESS:      11307  HIT:      11088  MISS:        219
+LLC RFO       ACCESS:      12781  HIT:        483  MISS:      12298
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      13053  HIT:      13053  MISS:          0
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+Major fault: 0 Minor fault: 277
+
+CPU 2 cumulative IPC: 0.890949 instructions: 4000002 cycles: 4489597
+L1D TOTAL     ACCESS:    1461580  HIT:    1055576  MISS:     406004
+L1D LOAD      ACCESS:    1171839  HIT:     939144  MISS:     232695
+L1D RFO       ACCESS:     289741  HIT:     116432  MISS:     173309
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I TOTAL     ACCESS:    1109423  HIT:    1109423  MISS:          0
+L1I LOAD      ACCESS:    1109423  HIT:    1109423  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:     539207  HIT:     513320  MISS:      25887
+L2C LOAD      ACCESS:     231621  HIT:     219686  MISS:      11935
+L2C RFO       ACCESS:     131752  HIT:     118504  MISS:      13248
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:     175834  HIT:     175130  MISS:        704
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC TOTAL     ACCESS:      38330  HIT:      25813  MISS:      12517
+LLC LOAD      ACCESS:      11899  HIT:      11680  MISS:        219
+LLC RFO       ACCESS:      12982  HIT:        684  MISS:      12298
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      13449  HIT:      13449  MISS:          0
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+Major fault: 0 Minor fault: 274
+
+CPU 3 cumulative IPC: 0.889397 instructions: 4000001 cycles: 4497428
+L1D TOTAL     ACCESS:    1462480  HIT:    1055433  MISS:     407047
+L1D LOAD      ACCESS:    1171695  HIT:     938866  MISS:     232829
+L1D RFO       ACCESS:     290785  HIT:     116567  MISS:     174218
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I TOTAL     ACCESS:    1110345  HIT:    1110345  MISS:          0
+L1I LOAD      ACCESS:    1110345  HIT:    1110345  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:     541193  HIT:     514783  MISS:      26410
+L2C LOAD      ACCESS:     231775  HIT:     219209  MISS:      12566
+L2C RFO       ACCESS:     132534  HIT:     119448  MISS:      13086
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:     176884  HIT:     176126  MISS:        758
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC TOTAL     ACCESS:      38440  HIT:      25923  MISS:      12517
+LLC LOAD      ACCESS:      12543  HIT:      12324  MISS:        219
+LLC RFO       ACCESS:      12929  HIT:        631  MISS:      12298
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      12968  HIT:      12968  MISS:          0
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+Major fault: 0 Minor fault: 274
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:      23672  ROW_BUFFER_MISS:       1403
+ DBUS_CONGESTED:       3500
+ WQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0  FULL:          0
+
+ CHANNEL 1
+ RQ ROW_BUFFER_HIT:      23667  ROW_BUFFER_MISS:       1400
+ DBUS_CONGESTED:       3500
+ WQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 7
