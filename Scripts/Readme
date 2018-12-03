@@ -16,6 +16,6 @@ $ ./run_4core.sh ${binary} ${n_warm} ${n_sim} ${num} ${option}
 
 ${num}: mix number is the corresponding line number written in sim_list/4core_workloads.txt
 
-While running for higher cores num specifies the location of trace in core_workloads.txt
+While running for higher cores num specifies the location of trace in 4core_workloads.txt
 
 similarly we can go for higher cores
