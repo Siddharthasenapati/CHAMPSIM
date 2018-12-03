@@ -1,0 +1,5 @@
+
+Modify base_replacement.cc and llc_replacement.cc to use any replacement policies.
+Change the llc_victim name to run the new replacement policy.
+Every Time time you change this files need to build.
+The newly created replacement policies need to be called,so make sure to add function call in cache.h.
