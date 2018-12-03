@@ -1,0 +1,6 @@
+
+HOW to build CHAMPSIM?
+
+./build_champsim.sh bimodal no no lru 1 
+./build_champsim.sh ${BRANCH} ${L1D_PREFETCHER} ${L2C_PREFETCHER} ${LLC_REPLACEMENT} ${NUM_CORE}
+change number of cores to build for higher cores
